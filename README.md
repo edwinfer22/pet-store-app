@@ -1,46 +1,96 @@
-# Getting Started with Create React App
+# 🐾 Pet Store App 🐾
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gist/edwindna/8433609931a6f8b73b53a06a206a4a90/raw/a062725e2270905479038d15029340f1a1e05d9c/atomic.png" alt="Pet Store App Logo" width="200"/>
+</p>
 
-## Available Scripts
+¡Bienvenido a la aplicación Pet Store! Esta es una aplicación de frontend construida con React que sirve como una tienda de mascotas en línea.
 
-In the project directory, you can run:
+## ✨ Características
 
-### `npm start`
+-   **🏠 Página de inicio:** Una página de inicio acogedora.
+-   **🛍️ Página de productos:** Navega por una lista de productos para mascotas.
+-   **👨‍⚕️ Página de veterinarios:** Encuentra información sobre los veterinarios disponibles.
+-   **📱 Diseño responsivo:** Se ve genial en computadoras de escritorio y dispositivos móviles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Tecnologías Utilizadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-   **[React](https://reactjs.org/)**: Una biblioteca de JavaScript para construir interfaces de usuario.
+-   **[TypeScript](https://www.typescriptlang.org/)**: Un superconjunto de JavaScript que añade tipado estático.
+-   **[React Router](https://reactrouter.com/)**: Para el enrutamiento y la navegación en la aplicación.
+-   **[React Bootstrap](https://react-bootstrap.github.io/)**: Componentes de Bootstrap para React.
+-   **[Bootstrap](https://getbootstrap.com/)**: Un popular framework de CSS para construir sitios web responsivos.
 
-### `npm test`
+## 📦 Cómo Empezar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sigue estas instrucciones para tener una copia del proyecto funcionando en tu máquina local para desarrollo y pruebas.
 
-### `npm run build`
+### Prerrequisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Necesitarás tener [Node.js](https://nodejs.org/) y [npm](https://www.npmjs.com/) instalados en tu máquina.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  Clona el repositorio:
+    ```sh
+    git clone https://github.com/edwinfer22/pet-store-app.git
+    ```
+2.  Navega al directorio del proyecto:
+    ```sh
+    cd pet-store-app
+    ```
+3.  Instala las dependencias:
+    ```sh
+    npm install
+    ```
 
-### `npm run eject`
+### Ejecutando la Aplicación
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Para iniciar la aplicación en modo de desarrollo, ejecuta:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Esto abrirá la aplicación en [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## API (Hipotética)
 
-## Learn More
+Esta aplicación de frontend está diseñada para funcionar con una API de backend. A continuación se muestra la documentación para una API hipotética de una tienda de mascotas.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Recursos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   **Productos**: `/api/products`
+-   **Veterinarios**: `/api/vets`
+
+### Endpoints
+
+#### Productos
+
+-   **`GET /api/products`**: Obtiene una lista de todos los productos.
+-   **`GET /api/products/:id`**: Obtiene un solo producto por su ID.
+
+#### Veterinarios
+
+-   **`GET /api/vets`**: Obtiene una lista de todos los veterinarios.
+
+### Usando con Postman
+
+Puedes usar [Postman](https://www.postman.com/) para probar los endpoints de la API.
+
+1.  Abre Postman y crea una nueva solicitud.
+2.  Selecciona el método `GET`.
+3.  Ingresa la URL del endpoint (por ejemplo, `http://localhost:5000/api/products`).
+4.  Haz clic en "Send".
+
+## 🖼️ Capturas de Pantalla
+
+*Aquí puedes añadir capturas de pantalla de tu aplicación.*
+
+<p align="center">
+  <img src="URL_DE_TU_CAPTURA_DE_PANTALLA" alt="Captura de pantalla de la aplicación" width="600"/>
+</p>
+
+---
+
+*Este README fue generado por un asistente de IA. Si tienes alguna pregunta, no dudes en preguntar.*
